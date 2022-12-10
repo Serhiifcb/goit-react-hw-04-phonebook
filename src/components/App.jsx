@@ -3,8 +3,6 @@ import { Contacts } from "./Contacts/Contacts";
 import { Form } from "./Form/Form";
 import { nanoid } from 'nanoid'
 import { Filter } from "./Filter/Filter";
-import { findAllInRenderedTree } from "react-dom/test-utils";
-import { isDocument } from "@testing-library/user-event/dist/utils";
 
 export class App extends React.Component {
   
@@ -47,7 +45,7 @@ export class App extends React.Component {
   }
 
   render() {
-    const { contacts, filter } = this.state;
+    const {filter } = this.state;
     const visibleContacts = this.state.contacts.filter(contact => contact.name.toLowerCase().includes(this.state.filter.toLowerCase()))
     
     return ( 

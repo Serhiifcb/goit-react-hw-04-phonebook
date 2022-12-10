@@ -1,0 +1,51 @@
+.contactListBlock {
+  margin-left: 20px;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(188, 240, 250);
+  box-shadow: 3px 3px 3px rgb(116, 116, 160);
+}
+
+.contactItem {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+.contactItem:hover {
+  
+  border-radius: 5px;
+  background-color: rgb(164, 235, 249);
+  box-shadow: 3px 3px 3px rgb(116, 116, 160);
+}
+
+.buttonDeleteContact {
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px 7px;
+  border: none;
+  background-color: rgb(116, 187, 201);
+  box-shadow: 3px 3px 3px rgb(116, 116, 160);
+}
+
+.buttonDeleteContact:hover {
+  background-color: rgb(109, 109, 172);
+  color: white;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgb(116, 116, 160);
+}
+
+.spanContact {
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  background-color: rgb(116, 187, 201);
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px rgb(116, 116, 160);
+}

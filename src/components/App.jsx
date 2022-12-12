@@ -45,7 +45,7 @@ export class App extends React.Component {
   }
 
   render() {
-    const {filter } = this.state;
+    const {filter} = this.state;
     const visibleContacts = this.state.contacts.filter(contact => contact.name.toLowerCase().includes(this.state.filter.toLowerCase()))
     
     return ( 
